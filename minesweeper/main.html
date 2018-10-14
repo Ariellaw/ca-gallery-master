@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ariella's Minesweeper Game</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+    <button class="start_game" onclick="init()">Start Game</button>
+    <br/>
+    <br/>
+    <div class="level_buttons">
+        <p class="level"> The current level is
+            <span class="emphasized"></span>
+        </p>
+        <p class="mines">There are <span class="emphasized"></span> mines in this game.</p>
+        <button onclick="setLevel(4,2, 'easy')"> Easy</button>
+        <button onclick="setLevel(6,5, 'intermediate')"> Intermediate </button>
+        <button onclick="setLevel(8,15, 'difficult')"> Difficult</button>
+        <p class="best_time"> </p>
+    </div>
+    <div class="game_over">
+        <div class="victory">You won the game in
+            <span></span> seconds.
+            <br>
+            <img src="img/Hooray.png">
+        </div>
+        <div class="loss"> You lost the game!
+            <br>
+            <img src="img/sad.png">
+        </div>
+    </div>
+
+
+    <div class="table_wrapper">
+        <div class="smiley">
+            <img src="img/reg_smiley.jpg">
+        </div>
+
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+        <div class="timer">
+            <p>Your time is
+                <span>0</span>.</p>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

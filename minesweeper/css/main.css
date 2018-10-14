@@ -1,0 +1,99 @@
+body {
+  background-color: lightskyblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-size: 25px;
+}
+.emphasized {
+  font-weight: bold;
+  color: purple;
+}
+button {
+  border-radius: 10%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border: 5px solid gray;
+}
+
+.board {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+table img {
+  width: 100%;
+}
+
+td {
+  width: 80px;
+  height: 80px;
+}
+
+img {
+  width: 120px;
+  border-radius: 15%;
+}
+
+.level_buttons {
+  float: left;
+  width: 30vh;
+  margin: 50px;
+  border-width: 5px;
+  padding: 20px;
+  border-color: pink;
+  border-style: solid;
+  border-radius: 20px;
+}
+.level_buttons button {
+  background-color: lightgoldenrodyellow;
+}
+
+.start_game {
+  float: left;
+  margin-top: 50px;
+  background-color: pink;
+  width: 150px;
+  height: 90px;
+}
+.game_over {
+  float: right;
+  width: 20vh;
+  height: 400px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: pink;
+  background-color: lightblue;
+  border-radius: 15%;
+  font-size: 30px;
+  padding: 20px;
+  visibility: hidden;
+  top: absolute;
+}
+.loss {
+  display: none;
+}
+.victory {
+  display: none;
+}
+
+.timer {
+  visibility: hidden;
+  float: right;
+}
+.table_wrapper {
+  margin: auto;
+  width: 70vh;
+  padding: 10px;
+}
+.smiley {
+  margin: auto;
+  width: 50vh;
+  padding: 10px;
+}
