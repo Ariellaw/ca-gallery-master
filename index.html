@@ -34,6 +34,37 @@
 
     <!-- Contact -->
     <section id="contact">
+      <div class="container">
+        <div class="col-md-7">
+          <div class="form-area">
+            <form role="form">
+              <br style="clear:both">
+              <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3>
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="200" rows="7"></textarea>
+                <span class="help-block">
+                  <p id="characterLeft" class="help-block ">You have reached the limit</p>
+                </span>
+              </div>
+
+              <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
     </section>
 
   </aside>
@@ -58,7 +89,7 @@
             <a class="nav-link js-scroll-trigger" href="#me">Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link js-scroll-trigger" href="#contact"onClick="openCanvas()">Contact</a>
           </li>
         </ul>
       </div>
@@ -91,27 +122,27 @@
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-            inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Customer Experience Expert</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+            magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-            inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">FrontEnd Developer</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+            magni, dicta impedit.</p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
             <i class="fa fa-circle fa-stack-2x text-primary"></i>
             <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
-            inventore harum ex magni, dicta impedit.</p>
+          <h4 class="service-heading">Other Stuff</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex
+            magni, dicta impedit.</p>
         </div>
       </div>
     </div>
@@ -143,7 +174,7 @@
           <img class="mx-auto rounded-circle" src="img/team/Ariella.png" alt="">
           <h4>Ariella Wills</h4>
           <p class="text-muted">Front End Developer </p>
-  
+
         </div>
       </div>
       <div class="col-sm-8 flex-align-center">
@@ -164,20 +195,20 @@
         </div>
         <div class="col-md-4 flex-align-center">
           <ul class="list-inline social-buttons flex-align-center">
-         
+
             <li class="list-inline-item flex-align-center">
               <a href="https://www.facebook.com/ariella.wills" target="_blank">
                 <i class="fa fa-facebook"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/ariella-wills-36189a12/"  target="_blank">
+              <a href="https://www.linkedin.com/in/ariella-wills-36189a12/" target="_blank">
                 <i class="fa fa-linkedin"></i>
               </a>
             </li>
           </ul>
         </div>
-        <div class="col-md-4 flex-align-center" >
+        <div class="col-md-4 flex-align-center">
           <ul class="list-inline quicklinks">
             <li class="list-inline-item">
               <a href="#">More Me</a>
